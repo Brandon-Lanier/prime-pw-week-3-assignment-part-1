@@ -4,10 +4,12 @@ console.log('****** Array Practice *******');
 console.log('--- 1. Practice creating arrays ---');
 
 // Example: Array of animals
+
 let animalArray = ['fish', 'cat', 'bird', 'dog'];
 console.log('Animals are: ', animalArray);
 
 // 1.a. TODO: Make an array with some favorite foods
+
 let favoriteFoods = ['Panang Curry', 'Ramen', 'Pasta Salad', 'Hot Sauce'];
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar
@@ -45,39 +47,48 @@ console.log('The last animal in the array is', animalArray[animalArray.length - 
 console.log('--- 4. Adding and removing array items ---');
 
 // Example: Add an animal to the end using Array.push
+
 animalArray.push('penguin');
 console.log('Added an animal to end,', animalArray);
 
 // 4.a. TODO: Add a new food at the end of your array & log the array
+
 favoriteFoods.push('DQ Blizzard Cake');
 console.log('Added my favorite dessert to the end of the array', favoriteFoods);
 
 
 // Example: Remove the last animal by using Array.pop
+
 let removedAnimal = animalArray.pop();
 console.log('Removed the last animal', removedAnimal);
 console.log('The animals are now', animalArray);
 
 // 4.b. TODO: Remove the food at the end of your array &
 //      log both the food removed and the updated array
+
 let removedFood = favoriteFoods.pop();
-console.log('Removed my favorite dessert :\(', removedFood);
+console.log(`Removed my favorite dessert :\( ${removedFood}.`);
+console.log(`The updated list is now ${favoriteFoods}.`);
 
 // Example: Add an animal to the beginning using Array.unshift
+
 animalArray.unshift('walrus');
-console.log(`Added an animal to beginning: ${animalArray}`);
+console.log(`Added a new animal to our array: ${animalArray}`);
 
 // 4.c. TODO: Add a food at the beginning of the array & log the array
+
 favoriteFoods.unshift('Popcorn');
 console.log(`Added another favorite food to the beginning: ${favoriteFoods}`);
 
 // Example: Remove the first animal using Array.shift
+
 removedAnimal = animalArray.shift();
-console.log('Removed the first animal', removedAnimal);
-console.log('The animals are now', animalArray);
+console.log(`Removed the first animal ${removedAnimal}`)
+console.log(`The animals are now ${animalArray}`);
 
 // 4.d TODO: Remove the food at the beginning of your array &
 //     log both the food removed and the updated array
+
 removedFood = favoriteFoods.shift();
 console.log(`I shifted ${removedFood} right out of the list!`);
-console.log('I am now back to my original list', favoriteFoods);
+console.log(`I am now back to my original list: ${favoriteFoods}.`);
