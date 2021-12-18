@@ -73,7 +73,7 @@ console.log(`The updated list is now ${favoriteFoods}.`);
 // Example: Add an animal to the beginning using Array.unshift
 
 animalArray.unshift('walrus');
-console.log(`Added a new animal to our array: ${animalArray}`);
+console.log(`Added a ${animalArray[0]} to our array: ${animalArray}`);
 
 // 4.c. TODO: Add a food at the beginning of the array & log the array
 
